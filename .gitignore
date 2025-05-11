@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+*.egg-info/
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+credentials.json
