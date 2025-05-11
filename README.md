@@ -20,3 +20,10 @@ using unsupervised machine learning to cluster the transactions of the customers
 5.Cluster Analysis to interpret customer characteristics per group.
 
 6.Product Popularity Profiling within each cluster to identify product trends.
+
+### 🎯 Outcome
+1.Identified meaningful customer segments.
+
+2.Gained insights into popular product combinations per group.
+
+3.Created a foundation for product recommendation strategies.
