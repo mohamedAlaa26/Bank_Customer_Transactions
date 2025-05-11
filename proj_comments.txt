@@ -23,7 +23,15 @@ Python offers a wide ecosystem of libraries that simplify and enhance feature en
 
 ---
 
-### 3. **Use SQL to Handle Owned Product Listings**
+### 3. **Use Embeddings for Location Fields Instead of Fuzzy Matching**
+When working with location data that contains typos, inconsistent formats, or similar variants (e.g., "New York City", "NYC", "newyork city"), using embeddings can be more effective than fuzzy string matching.
+
+Example:
+"San Francisco", "SF", and "San Fran" may all be close in vector space using embeddings but rank poorly with basic string similarity.
+
+---
+
+### 4. **Use SQL to Handle Owned Product Listings**
 
 Owned or grouped product-related data should be processed directly in SQL using aggregation techniques like `LISTAGG()` or `STRING_AGG()` to concatenate grouped values efficiently.
 
@@ -39,7 +47,7 @@ This avoids unnecessary logic in application code and improves performance.
 
 ---
 
-### 4. **Evaluate Clustering Results Using Silhouette Score and Post-Cluster Analysis**
+### 5. **Evaluate Clustering Results Using Silhouette Score and Post-Cluster Analysis**
 
 To assess the quality of clustering, first calculate the **silhouette score**, which measures how well each data point fits within its cluster. Then, perform further analysis to interpret and validate the clusters.
 
